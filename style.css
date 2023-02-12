@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(4, 4, 78);
+
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('bg1.jpg');
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+    background-color: rgb(0, 127, 170);
+    border-radius: 15px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.contact .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+
+.contactForm h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+input {
+    border: 10px, 10px, 0, 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span {
+    color: rgb(4, 4, 78);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.kirish img {
+    height: 600px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+i {
+    padding: 10px;
+    color: rgb(4, 4, 78);
+    margin-right: 10px;
+    align-items: center;
+    font-size: 25px;
+}
+
+button {
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+button:hover {
+    box-shadow: 0px 13px 16px 1px rgba(0, 1, 22, 0.69);
+    transition: all 1s ease;
+    transform: translateY(-5px);
+}
+
+/* Hodim topish  */
+.hodimtop {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.hodimtop h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.hodimtop .inputBox1 {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hodimtop .inputBox1 input,
+.hodimtop .inputBox1 textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.hodimtop .inputBox1 span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.hodimtop .inputBox1 input:focus~span,
+.hodimtop .inputBox1 input:valid~span {
+    color: rgb(4, 4, 78);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.hodimtop .inputBox1 input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Ustoz top */
+.ustoztop {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.ustoztop h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.ustoztop .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.ustoztop .inputBox input,
+.ustoztop .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+
+
+.ustoztop .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.ustoztop .inputBox input:focus~span,
+.ustoztop .inputBox input:valid~span {
+    color: rgb(4, 4, 78);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.ustoztop .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Shogird top */
+
+.shogirdtop {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.shogirdtop h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.shogirdtop .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.shogirdtop .inputBox input,
+.shogirdtop .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+
+
+.shogirdtop .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.shogirdtop .inputBox input:focus~span,
+.shogirdtop .inputBox input:valid~span {
+    color: rgb(4, 4, 78);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.shogirdtop .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* sherik topish */
+.sheriktop {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(0, 127, 170);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.sheriktop h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.sheriktop .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sheriktop .inputBox input,
+.sheriktop .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+
+
+.sheriktop .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.sheriktop .inputBox input:focus~span,
+.sheriktop .inputBox input:valid~span {
+    color: rgb(4, 4, 78);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.sheriktop .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#kirish{
+    display: block;
+}
+#ishtop {
+   display: none;
+}
+#hodimtop{
+    display: none;
+}
+#ustoztop{
+    display: none;
+}
+#shogirdtop{
+    display: none;
+}
+#sheriktop{
+    display: none;  
+}
+
+@media screen and (max-width:425px) {
+    button {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        width: 400px;
+    }
+}
+@media (max-width:991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .container .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+
+    .hodimtop {
+        width: 100%;
+    }
+
+    .ustoztop {
+        width: 100%;
+    }
+    .shogirdtop{
+        width: 100%;
+    }
+    .sheriktop{
+        width: 100%;
+    }
+}
